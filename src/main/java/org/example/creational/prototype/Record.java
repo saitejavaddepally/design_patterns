@@ -1,4 +1,4 @@
-package org.example.prototype;
+package org.example.creational.prototype;
 
 public class Record implements Cloneable{
     @Override

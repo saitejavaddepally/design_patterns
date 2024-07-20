@@ -1,11 +1,11 @@
-package org.example.builder;
+package org.example.creational.builder;
 
-public enum HDD {
+public enum RAM {
     DEFAULT (1024), UPGRADED (2048), MAX(4096);
 
     private int size;
 
-    HDD(int size){
+    RAM(int size){
         this.size = size;
     }
 }

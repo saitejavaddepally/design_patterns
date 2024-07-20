@@ -1,10 +1,7 @@
-package org.example.prototype;
+package org.example.creational.prototype;
 
-import org.example.prototype.patternExample.Movie;
-import org.example.prototype.patternExample.Registry;
-
-import java.util.ArrayList;
-import java.util.List;
+import org.example.creational.prototype.patternExample.Movie;
+import org.example.creational.prototype.patternExample.Registry;
 
 public class PrototypeExample {
 

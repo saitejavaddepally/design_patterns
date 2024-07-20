@@ -1,4 +1,4 @@
-package org.example.prototype.patternExample;
+package org.example.creational.prototype.patternExample;
 
 public class Book extends Item{
 
