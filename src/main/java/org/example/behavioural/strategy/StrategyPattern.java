@@ -1,5 +1,8 @@
 package org.example.behavioural.strategy;
 
+import java.util.Collection;
+import java.util.Collections;
+
 public class StrategyPattern {
 
     public static void main(String[] args) {
