@@ -1,4 +1,4 @@
-package org.example.java8.Serialization;
+package org.example.behavioural.momento.Serialization;
 
 import java.io.Serializable;
 

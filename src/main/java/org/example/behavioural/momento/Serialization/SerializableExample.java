@@ -1,4 +1,4 @@
-package org.example.java8.Serialization;
+package org.example.behavioural.momento.Serialization;
 
 import java.io.*;
 
@@ -9,7 +9,7 @@ public class SerializableExample {
         SerializableClass serializableClass = new SerializableClass("sai", "30", "343");
 
         // Serialize the object
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("person.ser"))) {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("person.serial"))) {
             oos.writeObject(serializableClass);
             System.out.println("Serialization successful!");
         } catch (IOException e) {
@@ -18,7 +18,7 @@ public class SerializableExample {
 
 
         // Deserialize the object
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("person.ser"))) {
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("person.serial"))) {
             SerializableClass deserializedPerson = (SerializableClass) ois.readObject();
             System.out.println("Deserialization successful!");
             System.out.println("Deserialized Person: " + deserializedPerson);
