@@ -1,0 +1,16 @@
+
+Lambda Expressions:
+
+Lambda expressions are a concise way to represent a function or a block of code that can be executed on demand.
+They are anonymous functions, meaning they don't have a declared name.
+Lambda expressions are used to implement functional interfaces, which are interfaces with a single abstract method.
+
+Syntax:
+
+(parameters) -> { body }
+
+parameters : a list of input parameters, separated by commas. You can also use type inference, where the types are inferred by the compiler.
+->: the lambda operator, also known as the "arrow operator".
+{ body }: the code block that gets executed when the lambda expression is invoked.
+
+
