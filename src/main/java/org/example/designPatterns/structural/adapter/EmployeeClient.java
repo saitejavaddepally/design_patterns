@@ -15,7 +15,7 @@ public class EmployeeClient {
 
         //Will not work! This is where the adapter comes into play!
 
-        //Employee employeeFromLdap = new EmployeeLdap("chewie", "Solo", "Han", "han@solo.com");
+        //EmployeeDAO employeeFromLdap = new EmployeeLdap("chewie", "Solo", "Han", "han@solo.com");
 
         EmployeeLDAP employeeFromLdap = new EmployeeLDAP("chewie", "Solo", "Han", "han@solo.com");
 

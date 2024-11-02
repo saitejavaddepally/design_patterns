@@ -1,0 +1,11 @@
+
+PROXY DESIGN PATTERN
+--------------------
+
+1. Proxy is an interface between client and real object
+
+it will be useful in
+
+1. preprocessing & post processing
+2. cache
+3. security checks

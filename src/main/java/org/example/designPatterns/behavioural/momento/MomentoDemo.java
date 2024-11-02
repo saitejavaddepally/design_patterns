@@ -12,7 +12,7 @@ public class MomentoDemo {
         emp.setAddress("111 Main Street");
         emp.setPhone("888-555-1212");
 
-        System.out.println("Employee before save:                  " + emp);
+        System.out.println("EmployeeDAO before save:                  " + emp);
 
         careTaker.save(emp);
 
@@ -20,7 +20,7 @@ public class MomentoDemo {
 
         careTaker.save(emp);
 
-        System.out.println("Employee after changed phone number save: " + emp);
+        System.out.println("EmployeeDAO after changed phone number save: " + emp);
 
         emp.setPhone("333-999-6666"); // <--- we haven't called save!
 
